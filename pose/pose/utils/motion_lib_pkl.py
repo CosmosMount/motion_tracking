@@ -1,9 +1,9 @@
 import os, pickle, yaml
 import torch
-from .torch_utils import quat_diff, quat_to_exp_map, slerp, euler_from_quaternion
+from pose.utils.torch_utils import quat_diff, quat_to_exp_map, slerp, euler_from_quaternion
 from tqdm import tqdm
 from rich import print
-from .isaacgym_torch_utils import quat_rotate_inverse, quat_mul, quat_conjugate
+from pose.utils.isaacgym_torch_utils import quat_rotate_inverse, quat_mul, quat_conjugate
 import sys
 from types import ModuleType
 import numpy as np

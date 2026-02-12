@@ -11,7 +11,7 @@ import os
 import mujoco
 from mujoco.viewer import launch_passive
 import matplotlib.pyplot as plt
-from utils.motion_lib_pkl import MotionLib
+from pose.utils.motion_lib_pkl import MotionLib
 from utils.rotations import euler_from_quaternion_torch, quat_rotate_inverse_torch
 from assets.params import DEFAULT_MIMIC_OBS
 
